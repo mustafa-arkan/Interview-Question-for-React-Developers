@@ -1,0 +1,196 @@
+            Common Interview question for web developer.
+Q.Explain what are the key responsibilities of a Web Developer?
+•	Program test and debug all web applications
+•	Design, develop, test and deploy web applications
+•	Uploading sites onto server and registering it with different search engines
+•	Coordinate with other designers and programmers to develop web projects
+•	Fix bugs, troubleshoot and resolve problems
+•	In case of system failure initiate periodic testing and implement contingency plans
+•	Develop appropriate code structures to solve specific tasks
+•	Support and assist in the upkeep and  of websites
+•	Assume ownership of code throughout staging, development, testing and production
+Q.Mention some tips you can use to reduce the load time of a web application that you have written?
+To decrease the load time of a web application you have to follow the following tips
+•	Optimize images to no longer than screen resolution and save it as a compressed file
+•	Eliminate all JavaScript files to reduce the amount of transferable data
+•	Combine & Mininify all  and JS and call them in footer
+•	Defer or Asynch JS Files
+Q.List out few ways you can reduce page load time?
+You can do following things to reduce the page load time
+•	Reduce image size
+•	Remove unnecessary widgets
+•	HTTP compression
+•	Placing CSS at the top and script reference at the bottom or in external files
+•	Reduce lookups
+•	Minimize redirects
+•	Caching,
+Q.How XHTML is different from HTML?
+•	XHTML requires that all tags should be in lowercase
+•	XHTML requires that all tags should be closed properly
+•	XHTML requires that all attributes are enclosed in double quotes
+•	XHTML forbids inline elements from containing block level elements
+Q.List out the new APIs provided by HTML 5 standard?
+•	HTML 5 comes with number of new APIs
+•	Media API
+•	Text track API
+•	Application Cache API
+•	Data transfer API
+•	User Interaction
+•	Command API
+•	Constraint Validation API
+•	History API
+Q.What are the key responsibilities of Web Developers?
+It is generally expected that  will be able to perform the following tasks: 
+•	Build products using HTML, CSS, JavaScript, PHP (Hypertext Preprocessor), and other relevant coding languages.
+•	Design, develop, test, debug, and deploy applications in a cross-platform, cross-browser environment.
+•	Coordination with designers and programmers for the development of projects.
+•	Develop design specifications/patterns for optimizing web programs.
+•	Identifying and fixing bugs, troubleshooting, and resolving website issues.
+•	Taking care of the technical aspects of the site, such as its cache and performance (which indicate how fast a site will run and how much traffic it can handle).
+•	Providing support and assistance with web management best practices.
+•	Keep up with the latest technology.
+•	Maintain and update websites to meet modern web standards.
+•	Monitor web traffic
+
+Q.List the advantages of HTTP/2 over HTTP 1.1.
+Hypertext Transfer Protocol (HTTP) is a set of standard protocols allowing internet users to exchange website knowledge on WWW (World Wide Web). HTTP has gone through four iterations since it was introduced in 1991 i.e., HTTP/0.9, HTTP/1.0, HTTP/1.1, and HTTP/2.0. In 2015, HTTP/2 was released as a major revision to HTTP/1.1. HTTP/2.0 has the following advantages over HTTP/1.1:
+Increased performance: It was designed specifically to speed up page loading and reduce round-trip time (RTT) for resource-intensive websites.
+•	Handle multiple resources: With HTTP 1.1, the web pages were manageable simply by using HTML markups and images. But with HTTP 2.0, there are now multiple resources available for web pages, including images, fonts, scripts, and more. HTTP 1.1 was not designed to handle such a large amount of resources today.
+•	Multiplexing: Multiplexing is fully implemented in HTTP/2. It means that multiple requests are sent between browsers and servers simultaneously over a single TCP connection. Consequently, several elements of a web page can be delivered via a single TCP connection. As a result, the HTTP/1.1 head-of-line blocking problem is resolved, in which a packet at the front of the line blocks the transmission of other packets.
+•	Header Compression: HTTP 2.0 has the ability to compress HTTP headers to reduce overhead. When HTML headers on web pages are compressed, they can be sent between the browser and server in one trip, over a single TCP connection.
+•	Server push: HTTP/2 servers are able to push resources into a browser's cache even before they are requested. By doing this, browsers can display content without requiring additional requests.
+•	Binary protocols: HTTP/2 use binary protocols, not textual. HTML/2's binary protocols consume less bandwidth, can be parsed more efficiently, and are less error-prone compared to HTTP/1.1's textual protocols
+Q.Explain Webpack.
+Webpack is a tool that bundles JavaScript modules, also known as static module bundlers. Modules are reusable chunks of code that are built from the JavaScript, node_modules, images, and CSS styles of your application, and packaged so that they can be easily added to your website. If you have a large number of files, Webpack generates a single (or a few) file that runs your application.
+Q.List out newly introduced input types, APIs, form elements, and elements that support media content in HTML5.
+List out newly introduced input types, APIs, form elements, and elements that support media content in HTML5. 
+HTML5 has been updated repeatedly in the last few years, and the addition of input types has greatly simplified its use. Among some of these input types are
+•	Colour: Enable users to select or choose a colour using the colour picker.
+•	Date: Enable users to select or choose a date from a drop-down calendar.
+•	Datetime-local: Enable users to select or choose both local date and time.
+•	Email: Enable users to enter an email address.
+•	Month: Enable users to select or choose a month and year from a drop-down calendar.
+•	Week: Enable users to select or choose week and year from a drop-down calendar.
+HTML5 introduces the following new form elements:
+•	<datalist>: Specifies a list of options for input controls.
+•	<keygen>: Creates an encryption key.
+•	<output>: Defines the result or output of an expression.
+•	<progress>: Heads in the direction of 100% of the maximum value.
+•	<meter>: Provides a gauge that shows a general value within a range.
+The following are some of the new APIs introduced in HTML5:
+•	History API: Provides programs with access to the browser's history.
+•	Page visibility API: Enables us to determine the current visibility state of a page.
+•	Battery Status API: Displays the current battery status of the device.
+•	User Timing API: Provides programmers with high-precision timestamps for measuring application performance.
+•	Vibration API: Provides access to the device's vibration functionality.
+HTML5 includes five elements that support media as follows:
+•	<audio>: Used to embed audio files in a web page
+•	<video>: Used to embed video files in a web page.
+•	<source>: Used for attaching multimedia files, including audio, video, and photos.
+•	<embed>: Used to embed external applications, usually multimedia content such as audio or video into an HTML document.
+•	<track>: Specifies text tracks for audio and video components
+
+Q.While building a web application, how do you consider SEO, maintainability, UX, performance, and security?
+Security should be a top priority in any organization that handles vital data. On the other hand, SEO and UX should be prioritized for small and medium-sized online businesses.  You will need to pay more attention to performance and SEO if you write an online publication.
+Q.Describe the different kinds of HTTP requests supported by RESTful Web services.
+Each HTTP request type in RESTful web services has a specific purpose. Below is a description of them:
+•	GET: It is used to retrieve data or resources from the server but only allows read-only access. You cannot modify it.
+•	POST: It is used for creating a new resource.
+•	PUT: This is similar to POST, but used for updating an existing resource (if the resource doesn't exist, the API will decide whether a new resource should be created).
+•	DELETE: It is used to delete the resource from the server.
+•	TRACE: It validates the content along with the network during an HTTP request
+Q.How do you optimize the loading time of your web application as a Web Developer?
+As a Web Developer, here are the top hacks for reducing load time and optimizing your web application's loading times:
+•	Image compression and optimization: Using images on your website will improve the appearance and quality of your pages. However, larger images will also slow down the loading process. Compressing and optimizing images is one of the easiest ways to improve the speed of your site. The smaller your images' file sizes, the less weight they have, which, in turn, helps your pages load faster.
+•	Put JavaScript and CSS in external files: When JavaScript and CSS are embedded in HTML documents, they are downloaded each time the HTML document is loaded. As a result, this does not utilize browser caching, increasing the size of HTML documents. You should always place CSS and JavaScript in external files; this is best practice and makes maintaining your site easier.
+•	Reduce the number of redirects: A website with too many redirects will take a long time to load. HTTP request and response times are prolonged every time a page redirects. If you eliminate unnecessary redirects on your site, your page load time will be significantly reduced.
+•	CSS and JavaScript files should be loaded asynchronously: You have CSS and JavaScript files on your website that can be loaded synchronously or asynchronously. In synchronous loading, each file is loaded one at a time, in the order in which it appears on your web page. Asynchronous loading, on the other hand, allows multiple files to be loaded simultaneously, which can speed up the performance of a website. '
+•	Minify HTML, CSS, and JavaScript: Your pages will load faster if you optimize how your files to load. In a similar vein, you can minify your HTML, CSS, and JavaScript code. You can reduce the size of files by eliminating unnecessary spaces, characters, comments, and other components. As a result, web pages will load faster with cleaner code.
+Q. Define NPM (Node Package Manager).
+NPM stands for . It is commonly used as a default package manager for Node.js (JavaScript runtime environment). It is included in every installation of Node.js. This command-line tool installs, updates, and uninstalls Node.js packages and modules required for Node applications or projects. A package contains all files for a module, and modules are basically JavaScript libraries that can be added to a Node project as needed. It contains a number of libraries that are extremely useful to Node.js developers, speeding up the process of developing applications.
+
+Q.Explain W3C (World Wide Consortium).
+W3C stands for World Wide Web Consortium. Founded in 1994, W3C is an international organization devoted to the improvement of the web. 
+Characteristics of W3C:
+•	It develops and publishes web standards or protocols.
+•	Furthermore, it ensures the development and growth of the web.
+•	In addition, it sets the standards or protocols for web scripts, web applications, and other dynamic content.
+•	While designing web protocols, W3C adheres to the principles of modularity, simplicity, and extensibility
+Q.What are your key responsibilities in your current organization?
+Ans. This is one of the frequently asked web developer interview questions.
+You can talk about your current job role in a reply to this question. usually, the most common job responsibilities of a web developer include –
+•	Writing well designed, testable, efficient code by using best software development practices
+•	Creating website layout/user interface by using standard HTML/CSS practices
+•	Integrating data from various back-end services and databases
+•	Gathering and refine specifications and requirements based on the client’s requirements
+•	Creating and maintain software documentation
+•	Maintaining, expand, and scale the websites
+•	Staying plugged into emerging technologies/industry trends, and apply them to operations and activities
+•	Meeting with clients or management to discuss the needs and design of a website
+•	Cooperating with web designers to match visual design intent
+•	Creating and test applications for a website
+•	Writing code for the website, using programming languages such as HTML or XML
+•	Integrating graphics, audio, and video into the website
+Q.Which web development tools do you use?
+Github,figma,vercel,vs code
+Q.Have you gone through our website? Please mention what you didn’t like about the site?
+Ans. Now, this is a tricky question and here the interviewer is checking your skills to identify what is good as per you and as a developer how in-depth knowledge do you have about the site’s functionality. So, the first thing is that you must visit their website before appearing for the interview as this will show your interviewer that you are serious about the role and at the same time you are well-prepared.
+Next, you need to do is observe some good points about the site from a developer’s point of view and also make a checklist of pitfalls. Note, please mention only genuine points where your expertise can be of help.Q.How do you handle a client who is unhappy with your team’s web delivery?
+Ans. For every company, the client is the king and no one wants to lose his or her clients at any cost. Therefore, when appearing for a web developer interview round, you must be well prepared as the recruiter can shoot this question.
+You can start by narrating any previous incident that is related to client handling. Define the issues the client was facing, and later narrate the solutions, which you or your team had performed to help the client. This will let the recruiter know that you have the capability to handle and nurture clients.
+Q.What will you do when an image or a hyperlink is not displaying correctly?
+Ans. Many times it happens that some images are not properly displayed on the page and that severely affects the SEO and if happens multiple times, it hampers the overall rankings. So, I keep on checking things like missing href and alt tags.
+Q.What is the difference between responsive design and adaptive design? 
+Ans. The responsive design follows the principle of flexibility. It adapts to the size of the screen and offers the optimal viewing experience of a website regardless of what type of device is used to see it. Responsive websites use CSS media queries and flexible grids to change styles based on different factors related to the device, such as display type, width, and height.  
+Adaptive design uses static designs instead of flexible layouts. Its design is based on breakpoints that do not respond once they are initially loaded. It detects the type of device used and its other features, then provides the feature and layout based on a predefined set of characteristics. 
+Similarity: Both responsive and adaptive designs optimize the user experience across different target devices. Both adjust for different viewport sizes, resolutions, and control mechanisms.
+
+ Q.Explain the functional and non-functional requirements?
+Ans. Functional requirements define the specific functionality of the system, It describes what the system does or must not do. 
+Non-functional requirements, on the other hand, define how the system should do it. It specifies a system’s type, in terms of accessibility, reliability, capacity, usability, maintainability, and security. Non-functional requirements describe system behavior, features, and general characteristics that affect the user experience.
+Non-functional requirements do not affect the basic functionality of the system. The system will continue to perform its basic purpose, even if the non-functional requirements are not met.
+Q.How would you explain a concept like _____ to a colleague with no tech background?
+Your newly hired web developer will need to interact effectively with their non-techie colleagues in departments like sales and marketing. Test their ability to communicate in jargon-free language on topics such as:
+•	MVC (model, view, controller)
+•	Responsive design
+•	Commonly used cloud platforms, such as Amazon Web Services (AWS) and Microsoft Azure
+•	APIs
+•	Microservices architecture
+Q.Talk me through the steps you take when an application stops working.
+Solving problems is at the heart of web development, so listen to how candidates talk about fixing things that go wrong. Do they break down the situation and analyze potential causes? Do they know when to ask for help and where to find answers? How do they respond if their first idea for a solution doesn’t pan out?
+Q.Tell me about a time you had to respond to negative feedback.
+Web developers must deal with feedback from beta testers and actual users, which can be negative and thus discouraging. The ideal candidate for the web developer position needs to know how to take that feedback, analyze it and turn it into action. Listen to how the candidate walks through an issue and reaches a solution.
+Q. Tell me about a time you thought you were unfairly blamed for an error and how you handled it.
+This is a challenging question, but it’s a good way of assessing the candidate’s attitude toward teamwork. If an interviewee is quick to throw colleagues under the bus, that’s a red flag. You want to hire a diplomatic web developer who doesn’t get frustrated quickly and will work toward a solution.
+Q. What are the biggest challenges of working on the front end of an application?
+Web developers work closely with the rest of the development team. They understand how data is structured, what functions are available, how APIs are called and how web services are configured. This interview question will help differentiate between a developer and someone who is more of a designer.
+
+Q. WHAT KIND OF TEAM ENVIRONMENT DO YOU THRIVE IN?
+ You may be tempted to say whatever you think the interviewer is looking for, but it’s way better to be honest. If the team you’ll be working with has a work style that’s completely outside of your comfort zone, then this particular job might not be a good fit for you. That being said, most development teams are dynamic and flexible, and if your employer knows what kind of environment suits you best, they can help find a spot on the team that WILL work for you.
+
+
+Q. HOW DO YOU KEEP ON TOP OF INDUSTRY NEWS AND TRENDS, AND HOW DO YOU APPLY THIS TO YOUR WORK?
+
+
+You DO keep up with industry news, don’t you? If so, simply rattle off your list of favorite news sources and why they’re effective for keeping you in the know. And if tech news is something you’ve overlooked while being in the weeds of learning tech skills, take a few minutes to find a few suitable news blogs and tech Twitter accounts to put in your hip pocket (and be ready to bust them out at your next interview).
+
+Q.Can you describe your workflow when you create a web page?
+•	Planning: The first thing I do is figure out what is the purpose and goal of the project?
+•	Wire frame: Sketching down the overall design on a paper, which is very useful for initial screening on which things looks good and can be modified.
+•	Design: Then I’ll move onto Photoshop and design the web page with 12 grids (keeping bootstrap in mind for responsive design). The main purpose of this step is to get the output in a design version where we can make changes easily when comparing it to while coding. For example, here I can move, add, remove elements and play around with colour combinations etc., in seconds.
+•	Code: For me it is the very easiest part, where I only have to get the design into coded web format.
+•	Test & debug: If it is a responsive web page, one has to make sure that it works perfectly and all the elements were placed perfectly across all devices and browsers. Rather than leaving this process until the end, test the web page every now and then during the coding process.
+Q.Explain some of the pros and cons for CSS animations versus JavaScript animations.
+Functionality
+In terms of functionality, CSS and Javascript are fairly similar. Both are able to do very impressive animations but it becomes more of a question of what exactly the animation needs to do. Animating using CSS is known as a declarative approach while Javascript is imperative. What this means is in CSS you must specify specifically what has to happen, while in Javascript you are able to programmatically define the animation.This means you have more control over an animation when using Javascript. For example, playing a complicated animation in reverse would be difficult in CSS as you would need to specify additional transition properties on every piece of the animation.
+Overhead
+Javascript and CSS have a key difference, which is overhead. CSS is the same in every development environment and it is simple to learn and fairly straightforward. Javascript, on the other hand, is almost the opposite. Although basic Javascript has animation functionality, most animation is done through an additional library such as GSAP or velocity.js. Developers who are familiar with one library may not be familiar with another, meaning much development time must be spent on training. Additionally, many development environments may be using another Javascript library such as JQuery for non-animation development, which will lead to conflicts as many Javascript libraries are not compatible. Therefore, when developing it is important to consider the overhead cost of Javascript libraries.
+Performance
+Performance is another important consideration, especially if developing on mobile platforms. CSS has fairly good performance as it offloads animation logic onto the browser itself. This lets the browser optimize DOM interaction and memory consumption and most importantly, uses the GPU to improve performance. On the other hand, Javascript performance can range from reasonably faster to much slower than CSS. Javascript performance depends on the library used and puts the burden on the developer to optimize. For example, JQuery is a commonly used library but is notorious for slow animation performance because it is not designed with animation in mind. Also, adding Javascript libraries creates more overhead and can increase page load times especially for mobile devices. There are lightweight libraries out there specifically for this issue, but lightweight libraries also have less functionality. As mentioned before, you may have to optimize performance which is completely dependent on the library being used. Using CSS or Javascript for animation is highly dependent on what you are trying to do. Javascript can be very powerful but is completely unnecessary if all you are doing is something like fading in a pop up window. Most of the time just using CSS is enough, but complicated animations can be difficult to do without using Javascript. If you decide to use Javascript, make sure to pick a suitable library which does not conflict with other libraries you may already be using.
+Q.What resources do you use to learn about the latest in front end development and design?
+blogs,online courses,books,youtube,documentation,dev tools,stack overflow,tech personality,user community
+Q.What skills are needed to be a good front-end developer?
+Html,css,css frameworks,js,dom,fetch api,debugging,react.
+Q.What role do you see yourself in?
+I have not set my goal after 10 years but I have set a goal for next 3 years and that is to make myself backbone of a company which will give me opportunity to work with them.
+
